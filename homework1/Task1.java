@@ -22,11 +22,10 @@ public class Task1 {
         //Third task
         System.out.print("Enter the amount to be calculated: ");
         int sum = sc.nextInt();
-        System.out.print("How many years: ");
+        System.out.print("How many months: ");
         int months = sc.nextInt();
         System.out.print("How many percent: ");
-        int percent1 = sc.nextInt();
-        double percent = percent1 / 100;
-
+        int percent = sc.nextInt();
+        double percentForMonths = sum * percent / 365 * 30;
     }
 }
